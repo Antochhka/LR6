@@ -73,3 +73,14 @@ $ git log --all –oneline
 $ git reset --hard 06c6aec
 ```
 
+## 12. Создание ветки для отчета
+
+```bash
+$ git checkout -b report
+```
+
+## 13. Получение истории операций в форматированном виде
+
+```bash
+$ git log --pretty=format:"%h %ad %an %s" --date=short
+```
